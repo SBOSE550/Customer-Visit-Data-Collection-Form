@@ -24,14 +24,14 @@ The form dynamically adjusts its fields based on user inputs. Below is a brief d
 
 2. **New Customer Section**
    - **Customer Name** *(Required)*: Name of the new customer.
-   - **Connected Person Designation**: The designation of the connected person.
+   - **Connected Person Designation**: The designation of the connected person (the person the FPR contacted is the owner of the business or manager etc ).
    - **Connected Person Name** *(Required)*: Name of the contact person.
    - **Connected Person Phone No** *(Required)*: Phone number of the contact person.
    - **Connection Email ID**: Email ID of the contact person.
    - **Locality**: Locality of the new customer.
    - **New State** *(Required)*: State where the customer is located.
    - **New City** *(Required)*: City where the customer is located.
-   - **Segment of New Customer** *(Required)*: Business segment of the new customer.
+   - **Segment of New Customer** *(Required)*: The business segment of the new customer (Retail, Wholesales, Institution, Market place Etc).
 
 3. **Existing Customer Section**
    - **State** *(Required)*: State of the existing customer.
@@ -40,8 +40,8 @@ The form dynamically adjusts its fields based on user inputs. Below is a brief d
    - **Customer Name** *(Required)*: Name of the existing customer.
 
 4. **Customer Status**
-   - **Business Status**: Current business status of the customer.
-   - **Sub Status**: Sub-status providing additional details about the customer.
+   - **Business Status**: Current business status of the customer (is The Customer actively buying from the company or Not).
+   - **Sub Status**: Sub-status provides additional details about the customer Negotiation.
 
 5. **Direct or Indirect**
    - **Direct**: Direct interaction with the customer.
@@ -54,9 +54,9 @@ The form dynamically adjusts its fields based on user inputs. Below is a brief d
    - **FPR Email ID**: Email ID of the FPR.
 
 7. **Visit Details**
-   - **Oil Type** *(Checkbox)*: Types of oil products discussed.
+   - **Oil Type** *(Checkbox)*: Types of oil products discussed and the potential qty .
    - **Status Remark for Oil**: Remarks regarding the oil products.
-   - **Food Type** *(Checkbox)*: Types of food products discussed.
+   - **Food Type** *(Checkbox)*: Types of food products discussed and the potential qty.
    - **Status Remark for Food**: Remarks regarding the food products.
 
 8. **Upload Image**
