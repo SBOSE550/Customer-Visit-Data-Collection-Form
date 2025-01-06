@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <title>Horeca Customer Visit Data Collection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <style>
+        body {
+          font-family: sans-serif;
+          margin: 20px;
+          background-color: #f4f4f4; /* Light gray background */
+        }
+        h1, h2 {
+          color: #333; /* Dark gray headings */
+        }
+        .section {
+          /* White background for sections */
+          background-color: white;
+          padding: 20px;
+          margin-bottom: 20px;
+          border-radius: 5px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+          border: 1px solid #ddd;
+        }
+        label {
+          display: block; /* Labels above inputs */
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        select {
+          width: calc(100% - 12px); /* Full width with padding adjustment */
+          padding: 8px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box; /* Include padding in width */
+        }
+        button {
+          background-color: #007bff; /* Blue button */
+          color: white;
+          padding: 10px 15px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          margin-right: 10px; /* Space between buttons */
+        }
+        button:hover {
+          background-color: #0056b3; /* Darker blue on hover */
+        }
+        .oil-volume, .food-volume {
+          margin-left: 10px;
+          width: 80px; /* Adjust width as needed */
+        }
+
+        /* Media query for smaller screens (mobile) */
+        @media (max-width: 600px) {
+            body {
+                margin: 10px; /* Reduce margins on mobile */
+            }
+            input[type="text"],
+            input[type="email"],
+            input[type="number"],
+            select, button {
+                width: calc(100% - 12px); /* Ensure full width on mobile */
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Horeca Customer Visit Data Collection</h1>
+
+    <!-- Section 1 -->
+    <div id="section1" class="section">
+      <p>  This form is designed to collect customer visit details for Horeca customers. Please select the appropriate customer type and provide all mandatory information marked with an asterisk (*).</p>
+      <label for="customer Type">Customer Type *</label><br>
+      <input type="radio" id="new" name="CustomerType" value="New" onclick="showSection('section2')" required> New Customer <br>
+      <input type="radio" id="existing" name="CustomerType" value="Existing" onclick="showSection('section5')" required> Existing Customer<br>
+    </div>
+
+    <!-- Section 2: New Customer -->
+    <div id="section2" class="section" style="display:none;">
+      <h2>New Customer</h2>
+      <label for="customerName">Customer Name *</label><br>
+      <input type="text" id="customerName" name="Customer Name" required><br>
+
+      <label for="connectionDesignation">Connected Person Designation</label><br>
+      <input type="text" id="connectionDesignation" name="Connection Designation" ><br>
+
+      <label for="connectionName">Connected Person Name *</label><br>
+      <input type="text" id="connectionName" name="Connection Name" required><br>
+
+      <label for="connectionPhone">Connected Person Phone No *</label><br>
+      <input type="text" id="connectionPhone" name="Connection Phone No" required><br>
+
+      <label for="connectionEmail">Connection Email ID</label><br>
+      <input type="email" id="connectionEmail" name="Connection Email ID"><br>
+
+      <label for="locality">Locality</label><br>
+      <input type="text" id="locality" name="Locality"><br>
+
+      <label for="newstate">New_State *</label><br>
+      <select id="newstate" name="New_State" required>
+        <option value="" disabled selected>Select State</option>
+        <option value="West Bengal">West Bengal</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="Madhya Pradesh">Madhya Pradesh</option>
+        <option value="Tamil Nadu">Tamil Nadu</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Gujarat">Gujarat</option>
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Jharkhand">Jharkhand</option>
+        <option value="Assam">Assam</option>
+        <option value="Sikkim">Sikkim</option>
+        <option value="Delhi/ NCR">Delhi/ NCR</option>
+        <option value="Others">Others</option>
+      </select><br>
+
+      <label for="newcity">New_City *</label><br>
+      <select id="newcity" name="New_City" required>
+        <option value="" disabled selected>Select City</option>
+        <option value="Delhi">Delhi / NCR</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Patna">Patna</option>
+        <option value="Pune">Pune</option>
+        <option value="Guwahati">Guwahati</option>
+        <option value="Siliguri">Siliguri</option>
+        <option value="Lucknow">Lucknow</option>
+        <option value="Ranchi">Ranchi</option>
+        <option value="Others">Others</option>
+      </select><br>
+
+      <button type="button" id="nextButtonSection2">Next</button>
+      <button type="button" onclick="showSection('section1')">Back</button>
+    </div>
+
+     <!-- Section 3: New City name -->
+    <div id="section3" class="section" style="display:none;">
+      <h2>New City Name</h2>
+      <label for="CityName">City Name *</label><br>
+      <input type="text" id="CityName" name="City Name" required><br>
+
+      <button type="button" onclick="showSection('section4')">Next</button>
+      <button type="button" onclick="showSection('section2')">Back</button>
+    </div>
+
+    <!-- Section 4: New Customer Segment -->
+    <div id="section4" class="section" style="display:none;">
+      <h2>New Customer Segment</h2>
+      <label for="newsegment">Segment of New Customer *</label><br>
+      <select id="newsegment" name="Segment of New Customer" required>
+        <option value="" disabled selected>Select Segment</option>
+        <option value="QSR">QSR</option>
+        <option value="Institution">Institution</option>
+        <option value="Market Place">Market Place</option>
+        <option value="DB">DB</option>
+        <option value="Club">Club</option>
+        <option value="Caterer">Caterer</option>
+        <option value="Hotel">Hotel</option>
+        <option value="Star Hotel">Star Hotel</option>
+        <option value="Other">Other</option>
+      </select><br>
+
+      <button type="button" id="nextButtonSection9">Next</button>
+      <button type="button" onclick="showSection('section2')">Back</button>
+    </div>
+
+    <!-- Section 11: Customer Segment -->
+    <div id="section11" class="section" style="display:none;">
+      <h2>Customer Segment</h2>
+      <label for="CustomerSegment">Customer Segment *</label><br>
+      <input type="text" id="CustomerSegment" name="CustomerSegment" required><br>
+
+      <button type="button" onclick="showSection('section7')">Next</button>
+      <button type="button" onclick="showSection('section4')">Back</button>
+    </div>
+
+    
+
+    <!-- Section 5: Existing Customer -->
+    <div id="section5" class="section" style="display:none;">
+      <h2>Existing Customer</h2>
+
+      <label for="zone">State:</label>
+      <select id="zone" onchange="populateCities()">
+      <option value="" disabled selected>Select State</option>
+      </select>
+      <br><br>
+
+
+      <label for="city">City:</label>
+      <select id="city" onchange="populateSegments()">
+      <option value="" disabled selected>Select City</option>
+      </select>
+      <br><br>
+
+      <label for="segment">Segment:</label>
+      <select id="segment" onchange="populateCustomers()">
+      <option value="" disabled selected>Select Segment</option>
+      </select>
+      <br><br>
+
+      <label for="customer">Customer:</label>
+      <select id="customer">
+      <option value="" disabled selected>Select Customer</option>
+      </select>
+      <br><br>
+
+      <button type="button" onclick="showSection('section6')">Next</button>
+      <button type="button" onclick="showSection('section1')">Back</button>
+    </div>
+
+    <!-- Section 6: Customer Status -->
+    <div id="section6" class="section" style="display:none;">
+      <h2>Customer Status</h2>
+      <label for="businessStatus">Business Status *</label><br>
+      <input type="radio" id="Active" name="Business Status" value="Active" required>Active<br>
+      <input type="radio" id="Not Active" name="Business Status" value="Not Active" required>Not Active<br>
+
+      <label for="subStatus">Sub Status *</label><br>
+       <select id="subStatus" name="Sub Status" required>
+        <option value="" disabled selected>Select Sub Status</option>
+        <option value="Connection">Connection</option>
+        <option value="Sampling">Sampling</option>
+        <option value="Documentation">Documentation</option>
+        <option value="SD/BG/payment">SD/BG/payment</option>
+        <option value="Billing">Billing</option>
+        <option value="Reorder">Reorder</option>
+      </select><br>
+
+      <button type="button" onclick="showSection('section7')">Next</button>
+      <button type="button" onclick="showSection('section5')">Back</button>
+    </div>
+
+    <!-- Section 7: Direct or Indirect -->
+    <div id="section7" class="section" style="display:none;">
+      <h2>Direct or Indirect</h2>
+      <label for="service">Service *</label><br>
+      <input type="radio" id="Direct" name="service" value="Direct" onclick="showSection('section9')" required> Direct<br>
+      <input type="radio" id="Indirect" name="service" value="Indirect" onclick="showSection('section8')" required> Indirect<br>
+    </div>
+
+    
+    <!-- Section 8: Distributer Info -->
+    <div id="section8" class="section" style="display:none;">
+      <h2>Distributor Info</h2>
+      <label for="DistributorName">Distributor Name *</label><br>
+      <input type="text" id="DistributorName" name="DistributorName" required><br>
+
+      <button type="button" onclick="showSection('section9')">Next</button>
+      <button type="button" onclick="showSection('section7')">Back</button>
+    </div>
+
+    <!-- Section 9: FPR Details -->
+    <div id="section9" class="section" style="display:none;">
+      <h2>FPR Details</h2>
+      <label for="fprName">FPR Name *</label><br>
+      <input type="text" id="fprName" name="FPR Name" required><br>
+
+      <label for="fprPhone">FPR Phone</label><br>
+      <input type="text" id="fprPhone" name="FPR Phone"><br>
+
+      <label for="fprEmail">FPR Email ID</label><br>
+      <input type="email" id="fprEmail" name="FPR Email ID"><br>
+
+      <button type="button" onclick="showSection('section10')">Next</button>
+      <button type="button" onclick="showSection('section7')">Back</button>
+    </div>
+
+    <!-- Section 10: Visit Details -->
+    <div id="section10" class="section" style="display:none;">
+      <h2>Visit Details</h2>
+      <p>Select the oil types the customer is interested in (Customer Potential In MT):</p>
+      <div id="oilTypeCheckboxes">
+        <label>
+          <input type="checkbox" class="oil-checkbox" value="KGMO" onchange="toggleVolumeInput(this, 'oil-KGMO-volume')"> KGMO
+          <input type="number" id="oil-KGMO-volume" class="oil-volume" name="KGMO Volume" value="0" min="0" style="display:none;">
+        </label><br>
+        <label>
+          <input type="checkbox" class="oil-checkbox" value="SBO" onchange="toggleVolumeInput(this, 'oil-SBO-volume')"> SBO
+          <input type="number" id="oil-SBO-volume" class="oil-volume" name="SBO Volume" value="0" min="0" style="display:none;">
+        </label><br>
+        <label>
+          <input type="checkbox" class="oil-checkbox" value="RBO" onchange="toggleVolumeInput(this, 'oil-RBO-volume')"> RBO
+          <input type="number" id="oil-RBO-volume" class="oil-volume" name="RBO Volume" value="0" min="0" style="display:none;">
+        </label><br>
+        <label>
+          <input type="checkbox" class="oil-checkbox" value="SFO" onchange="toggleVolumeInput(this, 'oil-SFO-volume')"> SFO
+          <input type="number" id="oil-SFO-volume" class="oil-volume" name="SFO Volume" value="0" min="0" style="display:none;">
+        </label><br>
+        <label>
+          <input type="checkbox" class="oil-checkbox" value="LOOSE" onchange="toggleVolumeInput(this, 'oil-LOOSE-volume')"> LOOSE
+          <input type="number" id="oil-LOOSE-volume" class="oil-volume" name="LOOSE Volume" value="0" min="0" style="display:none;">
+        </label><br>
+        <label>
+          <input type="checkbox" class="oil-checkbox" value="PALM" onchange="toggleVolumeInput(this, 'oil-PALM-volume')"> PALM
+          <input type="number" id="oil-PALM-volume" class="oil-volume" name="PALM Volume" value="0" min="0" style="display:none;">
+        </label><br>
+
+      </div>
+      
+
+      <label for="StatusremarkforOil">Status remark for Oil</label><br>
+      <input type="text" id="StatusremarkforOil" name="Status remark for Oil"><br>
+      <p>Select the Food types the customer is interested in ( Customer Potential In KG):</p>
+      <div id="FoodTypeCheckboxes">
+        <label>
+          <input type="checkbox" class="food-checkbox" value="Pure Spice" onchange="toggleVolumeInput(this, 'food-PureSpice-volume')"> Pure Spice
+          <input type="number" id="food-PureSpice-volume" class="food-volume" name="Pure Spice Volume" value="0" min="0" style="display:none;">
+        </label><br>
+        <label>
+          <input type="checkbox" class="food-checkbox" value="Spice Blend" onchange="toggleVolumeInput(this, 'food-SpiceBlend-volume')"> Spice Blend
+          <input type="number" id="food-SpiceBlend-volume" class="food-volume" name="Spice Blend Volume" value="0" min="0" style="display:none;">
+        </label><br>
+        <label>
+          <input type="checkbox" class="food-checkbox" value="SC" onchange="toggleVolumeInput(this, 'food-SC-volume')"> SC
+          <input type="number" id="food-SC-volume" class="food-volume" name="SC Volume" value="0" min="0" style="display:none;">
+        </label><br>
+        <label>
+          <input type="checkbox" class="food-checkbox" value="Other" onchange="toggleVolumeInput(this, 'food-Other-volume')"> Other
+          <input type="number" id="food-Other-volume" class="food-volume" name="Other Volume" value="0" min="0" style="display:none;">
+        </label><br>
+        
+        
+      </div>
+      <label for="StatusremarkforFood">Status remark for Food</label><br>
+      <input type="text" id="StatusremarkforFood" name="Status remark for Food"><br>
+
+      <h2>Upload Image</h2>
+        <p>Please upload an image related to the visit:</p>
+        <input type="file" id="imageUpload" name="visitImage" accept="image/*"><br><br>
+
+      <button type="button" onclick="submitForm()">Submit</button>
+      <button type="button" onclick="showSection('section9')">Back</button>
+      <button type="button" onclick="showSection('section1')">Edit</button>
+    </div>
+
+
+    <script>
+      console.log("Script loaded and running");
+
+      // Dynamically show/hide sections based on user input
+      function showSection(sectionId) {
+        document.querySelectorAll('.section').forEach(section => section.style.display = 'none');
+        document.getElementById(sectionId).style.display = 'block';
+      }
+      function toggleVolumeInput(checkbox, inputId) {
+        const volumeInput = document.getElementById(inputId);
+        volumeInput.style.display = checkbox.checked ? 'inline-block' : 'none';
+        if (!checkbox.checked) {
+          volumeInput.value = 0; // Reset value when checkbox is unchecked
+        }
+      }
+
+      // Get references to the dropdown and the next button (New City)
+      const newCityDropdown = document.getElementById('newcity');
+      const nextButtonSection2 = document.getElementById('nextButtonSection2');
+
+      // Add an event listener to the dropdown
+      newCityDropdown.addEventListener('change', function() {
+          if (this.value === 'Others') {
+              // Change the onclick event to go to section3
+              nextButtonSection2.onclick = function() { showSection('section3'); };
+          } else {
+              // Restore the original onclick event to go to section4
+              nextButtonSection2.onclick = function() { showSection('section4'); };
+          }
+      });
+
+      // Get references to the dropdown and the next button(NewSegment)
+      const newSegmentDropdown = document.getElementById('newsegment');
+      const nextButtonSection9 = document.getElementById('nextButtonSection9');
+
+      // Add an event listener to the dropdown
+      newSegmentDropdown.addEventListener('change', function() {
+          if (this.value === 'DB') {
+              // Change the onclick event to go to section9
+              nextButtonSection9.onclick = function() { showSection('section9'); };
+          }else if (this.value === 'Other') {
+              // Change the onclick event to go to section11
+              nextButtonSection9.onclick = function() { showSection('section11'); };
+          }
+           else {
+              // Restore the original onclick event to go to section7
+              nextButtonSection9.onclick = function() { showSection('section7'); };
+          }
+      });
+
+      // Initial onclick setup (important for the first load)
+      nextButtonSection2.onclick = function() { showSection('section4'); };
+      
+     
+    
+
+   
+
+      // Fetch dropdown data on page load
+      let dropdownData = {};
+
+      // Fetch dropdown data from Google Sheet on page load
+      google.script.run.withSuccessHandler(data => {
+        console.log("Received Dropdown Data:", data); // Log the received data
+        dropdownData = data;
+        populateZones();
+      }).fetchData();
+
+      function populateZones() {
+        console.log("populateZones function called"); // Debug log
+        console.log("Populating Zones...");
+        
+        const zoneSelect = document.getElementById("zone");
+        
+        if (!zoneSelect) {
+          console.error("Zone dropdown element not found!");
+          return;
+        }
+
+        // Clear existing options
+        zoneSelect.innerHTML = '<option value="" disabled selected>Select Zone</option>';
+
+        // Populate zones
+        for (let zone in dropdownData) {
+          console.log("Adding Zone:", zone); // Debug log for each zone
+          
+          const option = document.createElement("option");
+          option.value = zone;
+          option.textContent = zone;
+          zoneSelect.appendChild(option);
+        }
+
+        // Log the dropdown's innerHTML to verify options are being added
+        console.log("Zone Dropdown HTML:", zoneSelect.innerHTML);
+        console.log("Zone dropdown populated successfully.");
+      }
+
+        document.addEventListener("DOMContentLoaded", function () {
+          console.log("DOM fully loaded and parsed.");
+          populateZones(); // Call the function after DOM is loaded
+        });
+       
+
+      function populateCities() {
+        const zoneSelect = document.getElementById("zone");
+        const citySelect = document.getElementById("city");
+
+        if (!zoneSelect || !citySelect) {
+          console.error("Zone or City dropdown element not found!");
+          return;
+        }
+
+        const selectedZone = zoneSelect.value;
+
+        if (!selectedZone) {
+          console.log("No zone selected.");
+          citySelect.innerHTML = '<option value="" disabled selected>Select City</option>';
+          return;
+        }
+
+        console.log("Selected Zone:", selectedZone);
+
+        const cities = dropdownData[selectedZone]; // Fetching cities for the selected zone
+        console.log("Fetched Cities for Zone:", cities);
+
+        // Clear and populate city dropdown
+        citySelect.innerHTML = '<option value="" disabled selected>Select City</option>';
+
+        if (cities) {
+          for (const city in cities) {
+            console.log("Adding City:", city);
+            const option = document.createElement("option");
+            option.value = city;
+            option.textContent = city;
+            citySelect.appendChild(option);
+          }
+          console.log("City Dropdown HTML:", citySelect.innerHTML);
+        } else {
+          console.warn("No cities found for the selected zone.");
+        }
+      }
+
+
+
+      // Populate Segment dropdown based on selected City
+      function populateSegments() {
+        const segmentSelect = document.getElementById('segment');
+        const customerSelect = document.getElementById('customer');
+
+        segmentSelect.innerHTML = '<option value="">Select Segment</option>';
+        customerSelect.innerHTML = '<option value="">Select Customer</option>';
+
+        const zone = document.getElementById('zone').value;
+        const city = document.getElementById('city').value;
+        if (zone && city && dropdownData[zone][city]) {
+          Object.keys(dropdownData[zone][city]).forEach(segment => {
+            segmentSelect.innerHTML += `<option value="${segment}">${segment}</option>`;
+          });
+        }
+      }
+
+      // Populate Customer dropdown based on selected Segment
+      function populateCustomers() {
+        const customerSelect = document.getElementById('customer');
+        customerSelect.innerHTML = '<option value="">Select Customer</option>';
+
+        const zone = document.getElementById('zone').value;
+        const city = document.getElementById('city').value;
+        const segment = document.getElementById('segment').value;
+        if (zone && city && segment && dropdownData[zone][city][segment]) {
+          dropdownData[zone][city][segment].forEach(customer => {
+            customerSelect.innerHTML += `<option value="${customer}">${customer}</option>`;
+          });
+        }
+      }
+
+      function showSection(sectionId) {
+        // Hide all sections
+        const sections = document.querySelectorAll(".section");
+        sections.forEach(section => {
+          section.style.display = "none";
+        });
+
+        // Show the selected section
+        const targetSection = document.getElementById(sectionId);
+        if (targetSection) {
+          targetSection.style.display = "block";
+
+          // Trigger dropdown population if showing section5
+          if (sectionId === "section5") {
+            populateZones();
+          }
+        }
+      }
+
+      
+
+
+      
+
+
+      function submitForm() {
+          console.log("submitForm() called");
+
+          const formData = {};
+          const formElements = document.querySelectorAll('input, select, textarea');
+          const imageInput = document.querySelector('#imageUpload');
+
+          let selectedOilTypes = [];
+          let selectedFoodTypes = [];
+
+          if (imageInput && imageInput.files.length > 0) {
+              const file = imageInput.files[0];
+              const reader = new FileReader();
+
+              reader.onload = function (e) {
+                  formData['image'] = e.target.result.split(',')[1]; // Add base64 image data
+                  processFormFields();
+              };
+
+              reader.readAsDataURL(file);
+          } else {
+              processFormFields();
+          }
+
+          function processFormFields() {
+              formElements.forEach(field => {
+                  let fieldValue;
+
+                  if (field.type === 'checkbox') {
+                      fieldValue = field.checked;
+                      if (field.checked) {
+                          const key = field.name || field.id;
+                          if (key) {
+                              formData[key] = fieldValue;
+                              const volumeField = document.querySelector(`#${key.replace(/\s+/g, '')}-volume`);
+                              if (volumeField) {
+                                  formData[`${key} Volume`] = volumeField.value || 0;
+                              }
+                          }
+
+                          if (field.classList.contains('oil-checkbox')) {
+                              selectedOilTypes.push(field.value);
+                          }
+                          if (field.classList.contains('food-checkbox')) {
+                              selectedFoodTypes.push(field.value);
+                          }
+                      }
+                  } else if (field.type === 'radio' && field.checked) {
+                      formData[field.name] = field.value;
+                  } else if (field.tagName === 'SELECT') {
+                      fieldValue = field.value;
+                      formData[field.name || field.id] = fieldValue;
+                  } else {
+                      fieldValue = field.value;
+                      formData[field.name || field.id] = fieldValue;
+                  }
+              });
+
+              formData['Selected Oil Types'] = selectedOilTypes.join(', ');
+              formData['Selected Food Types'] = selectedFoodTypes.join(', ');
+
+              console.log("formData before sending:", formData);
+
+              if (Object.keys(formData).length === 0) {
+                  console.warn("formData is empty. Check your form fields.");
+                  alert("Please fill out the form before submitting.");
+                  return;
+              }
+
+              google.script.run
+                  .withSuccessHandler(response => {
+                      console.log("Data sent successfully. Server response:", response);
+                      alert(response);
+                  })
+                  .withFailureHandler(error => {
+                      console.error("Client-side error during submission:", error);
+                      alert("An error occurred during form submission. Please try again later.");
+                  })
+                  .saveFormDataWithImage(formData);
+          }
+      }
+
+
+
+
+     
+    </script>
+    
+  </body>
+</html>
