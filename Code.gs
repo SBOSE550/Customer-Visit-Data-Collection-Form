@@ -5,7 +5,7 @@ function doGet() {
 
 
 function saveFormDataWithImage(formData) {
-  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Customer Data');
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Customer Data'); // Replace with your sheet name where the form responce will be stored
   const folder = DriveApp.getFolderById('1Lutus1yP28IgFOV64WO-JJmB6DzOkRce'); // Replace with your folder ID
 
   // Save the image file if present
@@ -42,7 +42,7 @@ function saveFormDataWithImage(formData) {
 
 // Fetch data from the Google Sheet
 function fetchData() {
-  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Customer Info"); // Replace with your sheet name
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Customer Info"); // Replace with your sheet name where is all the existing customer details is stored.
   const data = sheet.getRange(2, 1, sheet.getLastRow() - 1, sheet.getLastColumn()).getValues(); //extracting data excludin hader value
 
   Logger.log("Fetched Data: " + JSON.stringify(data)); // testing the data that is faching
