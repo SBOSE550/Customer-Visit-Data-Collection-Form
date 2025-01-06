@@ -94,5 +94,8 @@ Future improvements could include:
 - Creating detailed reports and dashboards directly from the collected data.
 
 ## Related Links
-- [Blog: How to Create Dependent Dropdowns in Google Forms Without Coding Experience](https://medium.com/@soumyadeepbose550/building-a-dynamic-data-collection-form-using-google-apps-script-643e297d0d0c)  
+- To read the blog explaining how to create a dependent dropdown without much coding knowledge, [Building a Dependent Dropdown Using Google Apps Script](https://medium.com/@soumyadeepbose550/building-a-dynamic-data-collection-form-using-google-apps-script-643e297d0d0c)
+- To see the Web Form, [click here](#).
+- For the `Code.gs` script, [click here](#).
+- To see `Index.html`, [click here](#).  
   
