@@ -54,9 +54,9 @@ The form dynamically adjusts its fields based on user inputs. Below is a brief d
    - **FPR Email ID**: Email ID of the FPR.
 
 7. **Visit Details**
-   - **Oil Type** *(Checkbox)*: Types of oil products discussed and the potential qty .
+   - **Oil Type** *(Checkbox)*: Types of oil products discussed and the potential quantity they can buy.
    - **Status Remark for Oil**: Remarks regarding the oil products.
-   - **Food Type** *(Checkbox)*: Types of food products discussed and the potential qty.
+   - **Food Type** *(Checkbox)*: Types of food products discussed and the potential quantity they can buy.
    - **Status Remark for Food**: Remarks regarding the food products.
 
 8. **Upload Image**
@@ -76,7 +76,7 @@ The form dynamically adjusts its fields based on user inputs. Below is a brief d
 ## Flowchart
 The following flowchart illustrates the dependencies between various fields and sections in the form:
 
-![Customer Visit Data Collection Form Flowchart](https://github.com/user-attachments/assets/ce49474c-d6f2-4fd4-8f88-a686554d55b9)
+![Customer Visit Data Collection Form Flowchart](https://github.com/SBOSE550/Market-Visit-Data-Collection-Form/blob/main/Customer%20Visit%20Data%20Collection%20Form%20Flowchart.jpg)
 
 
 ## Conclusion
