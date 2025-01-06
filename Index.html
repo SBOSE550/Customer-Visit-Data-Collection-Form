@@ -542,97 +542,92 @@
 
 
       function submitForm() {
-          console.log("submitForm() called");
+      console.log("submitForm() called");
 
-          const formData = {};
-          const formElements = document.querySelectorAll('input, select, textarea');
-          const imageInput = document.querySelector('#imageUpload');
+      const formData = {};
+      const formElements = document.querySelectorAll('input, select, textarea');
+      const imageInput = document.querySelector('#imageUpload');
 
-          let selectedOilTypes = [];
-          let selectedFoodTypes = [];
-          let allFieldsFilled = true; // Flag to check if all required fields are filled
+      let selectedOilTypes = [];
+      let selectedFoodTypes = [];
 
-          // Check if all required fields are filled
-          formElements.forEach(field => {
-            if (field.hasAttribute('required') && !field.value) {
-              allFieldsFilled = false;
-              field.style.borderColor = 'red'; // Highlight the empty required field
-            } else {
-              field.style.borderColor = ''; // Reset the border color if filled
-            }
-          });
+      // Check if an image is uploaded
+      if (imageInput && imageInput.files.length > 0) {
+          const file = imageInput.files[0];
+          const reader = new FileReader();
 
-          if (imageInput && imageInput.files.length > 0) {
-              const file = imageInput.files[0];
-              const reader = new FileReader();
-
-              reader.onload = function (e) {
-                  formData['image'] = e.target.result.split(',')[1]; // Add base64 image data
-                  processFormFields();
-              };
-
-              reader.readAsDataURL(file);
-          } else {
+          reader.onload = function (e) {
+              formData['image'] = e.target.result.split(',')[1]; // Add base64 image data
               processFormFields();
-          }
+          };
 
-          function processFormFields() {
-              formElements.forEach(field => {
-                  let fieldValue;
+          reader.readAsDataURL(file);
+      } else {
+          processFormFields();
+      }
 
-                  if (field.type === 'checkbox') {
-                      fieldValue = field.checked;
-                      if (field.checked) {
-                          const key = field.name || field.id;
-                          if (key) {
-                              formData[key] = fieldValue;
-                              const volumeField = document.querySelector(`#${key.replace(/\s+/g, '')}-volume`);
-                              if (volumeField) {
-                                  formData[`${key} Volume`] = volumeField.value || 0;
-                              }
-                          }
+      function processFormFields() {
+          formElements.forEach(field => {
+              let fieldValue;
 
-                          if (field.classList.contains('oil-checkbox')) {
-                              selectedOilTypes.push(field.value);
-                          }
-                          if (field.classList.contains('food-checkbox')) {
-                              selectedFoodTypes.push(field.value);
+              if (field.type === 'checkbox') {
+                  // Process checkboxes
+                  if (field.checked) {
+                      const key = field.name || field.id;
+                      if (key) {
+                          formData[key] = true;
+                          const volumeField = document.querySelector(`#${key.replace(/\s+/g, '')}-volume`);
+                          if (volumeField) {
+                              formData[`${key} Volume`] = volumeField.value || 0;
                           }
                       }
-                  } else if (field.type === 'radio' && field.checked) {
-                      formData[field.name] = field.value;
-                  } else if (field.tagName === 'SELECT') {
-                      fieldValue = field.value;
-                      formData[field.name || field.id] = fieldValue;
-                  } else {
-                      fieldValue = field.value;
-                      formData[field.name || field.id] = fieldValue;
+
+                      if (field.classList.contains('oil-checkbox')) {
+                          selectedOilTypes.push(field.value);
+                      }
+                      if (field.classList.contains('food-checkbox')) {
+                          selectedFoodTypes.push(field.value);
+                      }
                   }
-              });
-
-              formData['Selected Oil Types'] = selectedOilTypes.join(', ');
-              formData['Selected Food Types'] = selectedFoodTypes.join(', ');
-
-              console.log("formData before sending:", formData);
-
-              if (Object.keys(formData).length === 0) {
-                  console.warn("formData is empty. Check your form fields.");
-                  alert("Please fill out the form before submitting.");
-                  return;
+              } else if (field.type === 'radio') {
+                  // Process radio buttons
+                  if (field.checked) {
+                      formData[field.name] = field.value;
+                  }
+              } else if (field.tagName === 'SELECT') {
+                  // Process select dropdowns
+                  fieldValue = field.value;
+                  formData[field.name || field.id] = fieldValue;
+              } else {
+                  // Process other input fields
+                  fieldValue = field.value;
+                  formData[field.name || field.id] = fieldValue;
               }
+          });
 
-              google.script.run
-                  .withSuccessHandler(response => {
-                      console.log("Data sent successfully. Server response:", response);
-                      alert(response);
-                  })
-                  .withFailureHandler(error => {
-                      console.error("Client-side error during submission:", error);
-                      alert("An error occurred during form submission. Please try again later.");
-                  })
-                  .saveFormDataWithImage(formData);
+          formData['Selected Oil Types'] = selectedOilTypes.join(', ');
+          formData['Selected Food Types'] = selectedFoodTypes.join(', ');
+
+          console.log("formData before sending:", formData);
+
+          if (Object.keys(formData).length === 0) {
+              console.warn("formData is empty. Check your form fields.");
+              alert("Please fill out the form before submitting.");
+              return;
           }
+
+          google.script.run
+              .withSuccessHandler(response => {
+                  console.log("Data sent successfully. Server response:", response);
+                  alert(response);
+              })
+              .withFailureHandler(error => {
+                  console.error("Client-side error during submission:", error);
+                  alert("An error occurred during form submission. Please try again later.");
+              })
+              .saveFormDataWithImage(formData);
       }
+  }
 
 
 
