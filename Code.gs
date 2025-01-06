@@ -6,7 +6,7 @@ function doGet() {
 
 function saveFormDataWithImage(formData) {
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Customer Data'); // Replace with your sheet name where the form responce will be stored
-  const folder = DriveApp.getFolderById('1Lutus1yP28IgFOV64WO-JJmB6DzOkRce'); // Replace with your folder ID
+  const folder = DriveApp.getFolderById('image_folder_id'); // Replace with your folder ID where the image will be stored
 
   // Save the image file if present
   if (formData.image) {
