@@ -70,7 +70,6 @@ The form dynamically adjusts its fields based on user inputs. Below is a brief d
 - **Real-time Data Updates**: Data entered in the form is automatically stored in a Google Sheets file with two tabs:
   - **Customer Info**: Contains master data about existing customers.
   - **Form Response**: Stores data collected from form submissions.
-- **Error Handling**: Basic error handling is implemented to ensure that required fields are filled, and valid inputs are provided.
 - **Dynamic Field Visibility**: Fields appear or hide based on previous selections, ensuring a clean and intuitive user interface.
 
 ## Flowchart
@@ -90,6 +89,7 @@ This project also provided an excellent opportunity for me to learn and apply HT
 ### Next Steps
 Future improvements could include:
 - Adding user authentication for secure data submission.
+- Basic error handling needs to be implemented to ensure that required fields are filled, and valid inputs are provided.
 - Implementing offline data collection capabilities.
 - Creating detailed reports and dashboards directly from the collected data.
 
