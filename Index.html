@@ -76,7 +76,7 @@
     <!-- Section 1 -->
     <div id="section1" class="section">
       <p>  This form is designed to collect customer visit details for Horeca customers. Please select the appropriate customer type and provide all mandatory information marked with an asterisk (*).</p>
-      <label for="customer Type">Customer Type *</label><br>
+      <label for="customerType">Customer Type *</label><br>
       <input type="radio" id="new" name="CustomerType" value="New" onclick="showSection('section2')" required> New Customer <br>
       <input type="radio" id="existing" name="CustomerType" value="Existing" onclick="showSection('section5')" required> Existing Customer<br>
     </div>
@@ -85,25 +85,25 @@
     <div id="section2" class="section" style="display:none;">
       <h2>New Customer</h2>
       <label for="customerName">Customer Name *</label><br>
-      <input type="text" id="customerName" name="Customer Name" required><br>
+      <input type="text" id="customerName" name="customerName" required><br>
 
       <label for="connectionDesignation">Connected Person Designation</label><br>
-      <input type="text" id="connectionDesignation" name="Connection Designation" ><br>
+      <input type="text" id="connectionDesignation" name="connectionDesignation" ><br>
 
       <label for="connectionName">Connected Person Name *</label><br>
-      <input type="text" id="connectionName" name="Connection Name" required><br>
+      <input type="text" id="connectionName" name="connectionName" required><br>
 
       <label for="connectionPhone">Connected Person Phone No *</label><br>
-      <input type="text" id="connectionPhone" name="Connection Phone No" required><br>
+      <input type="text" id="connectionPhone" name="connectionPhone" required><br>
 
       <label for="connectionEmail">Connection Email ID</label><br>
-      <input type="email" id="connectionEmail" name="Connection Email ID"><br>
+      <input type="email" id="connectionEmail" name="connectionEmail"><br>
 
       <label for="locality">Locality</label><br>
-      <input type="text" id="locality" name="Locality"><br>
+      <input type="text" id="locality" name="locality"><br>
 
-      <label for="newstate">New_State *</label><br>
-      <select id="newstate" name="New_State" required>
+      <label for="newstate">New State *</label><br>
+      <select id="newstate" name="newState" required>
         <option value="" disabled selected>Select State</option>
         <option value="West Bengal">West Bengal</option>
         <option value="Maharashtra">Maharashtra</option>
@@ -122,8 +122,8 @@
         <option value="Others">Others</option>
       </select><br>
 
-      <label for="newcity">New_City *</label><br>
-      <select id="newcity" name="New_City" required>
+      <label for="newcity">New City *</label><br>
+      <select id="newcity" name="newCity" required>
         <option value="" disabled selected>Select City</option>
         <option value="Delhi">Delhi / NCR</option>
         <option value="Kolkata">Kolkata</option>
@@ -156,7 +156,7 @@
     <div id="section4" class="section" style="display:none;">
       <h2>New Customer Segment</h2>
       <label for="newsegment">Segment of New Customer *</label><br>
-      <select id="newsegment" name="Segment of New Customer" required>
+      <select id="newsegment" name="newSegment" required>
         <option value="" disabled selected>Select Segment</option>
         <option value="QSR">QSR</option>
         <option value="Institution">Institution</option>
@@ -177,7 +177,7 @@
     <div id="section11" class="section" style="display:none;">
       <h2>Customer Segment</h2>
       <label for="CustomerSegment">Customer Segment *</label><br>
-      <input type="text" id="CustomerSegment" name="CustomerSegment" required><br>
+      <input type="text" id="CustomerSegment" name="customerSegment" required><br>
 
       <button type="button" onclick="showSection('section7')">Next</button>
       <button type="button" onclick="showSection('section4')">Back</button>
@@ -222,11 +222,11 @@
     <div id="section6" class="section" style="display:none;">
       <h2>Customer Status</h2>
       <label for="businessStatus">Business Status *</label><br>
-      <input type="radio" id="Active" name="Business Status" value="Active" required>Active<br>
-      <input type="radio" id="Not Active" name="Business Status" value="Not Active" required>Not Active<br>
+      <input type="radio" id="Active" name="businessStatus" value="Active" required>Active<br>
+      <input type="radio" id="Not Active" name="businessStatus" value="Not Active" required>Not Active<br>
 
       <label for="subStatus">Sub Status *</label><br>
-       <select id="subStatus" name="Sub Status" required>
+       <select id="subStatus" name="subStatus" required>
         <option value="" disabled selected>Select Sub Status</option>
         <option value="Connection">Connection</option>
         <option value="Sampling">Sampling</option>
@@ -243,9 +243,9 @@
     <!-- Section 7: Direct or Indirect -->
     <div id="section7" class="section" style="display:none;">
       <h2>Direct or Indirect</h2>
-      <label for="service">Service *</label><br>
-      <input type="radio" id="Direct" name="service" value="Direct" onclick="showSection('section9')" required> Direct<br>
-      <input type="radio" id="Indirect" name="service" value="Indirect" onclick="showSection('section8')" required> Indirect<br>
+      <label for="serviceType">Service *</label><br>
+      <input type="radio" id="Direct" name="serviceType" value="Direct" onclick="showSection('section9')" required> Direct<br>
+      <input type="radio" id="Indirect" name="serviceType" value="Indirect" onclick="showSection('section8')" required> Indirect<br>
     </div>
 
     
@@ -253,7 +253,7 @@
     <div id="section8" class="section" style="display:none;">
       <h2>Distributor Info</h2>
       <label for="DistributorName">Distributor Name *</label><br>
-      <input type="text" id="DistributorName" name="DistributorName" required><br>
+      <input type="text" id="DistributorName" name="distributorName" required><br>
 
       <button type="button" onclick="showSection('section9')">Next</button>
       <button type="button" onclick="showSection('section7')">Back</button>
@@ -263,13 +263,13 @@
     <div id="section9" class="section" style="display:none;">
       <h2>FPR Details</h2>
       <label for="fprName">FPR Name *</label><br>
-      <input type="text" id="fprName" name="FPR Name" required><br>
+      <input type="text" id="fprName" name="fprName" required><br>
 
       <label for="fprPhone">FPR Phone</label><br>
-      <input type="text" id="fprPhone" name="FPR Phone"><br>
+      <input type="text" id="fprPhone" name="fprPhone"><br>
 
       <label for="fprEmail">FPR Email ID</label><br>
-      <input type="email" id="fprEmail" name="FPR Email ID"><br>
+      <input type="email" id="fprEmail" name="fprEmail"><br>
 
       <button type="button" onclick="showSection('section10')">Next</button>
       <button type="button" onclick="showSection('section7')">Back</button>
@@ -309,7 +309,7 @@
       
 
       <label for="StatusremarkforOil">Status remark for Oil</label><br>
-      <input type="text" id="StatusremarkforOil" name="Status remark for Oil"><br>
+      <input type="text" id="StatusremarkforOil" name="statusRemarkForOil"><br>
       <p>Select the Food types the customer is interested in ( Customer Potential In KG):</p>
       <div id="FoodTypeCheckboxes">
         <label>
@@ -332,7 +332,7 @@
         
       </div>
       <label for="StatusremarkforFood">Status remark for Food</label><br>
-      <input type="text" id="StatusremarkforFood" name="Status remark for Food"><br>
+      <input type="text" id="StatusremarkforFood" name="statusRemarkForFood"><br>
 
       <h2>Upload Image</h2>
         <p>Please upload an image related to the visit:</p>
@@ -348,10 +348,6 @@
       console.log("Script loaded and running");
 
       // Dynamically show/hide sections based on user input
-      function showSection(sectionId) {
-        document.querySelectorAll('.section').forEach(section => section.style.display = 'none');
-        document.getElementById(sectionId).style.display = 'block';
-      }
       function toggleVolumeInput(checkbox, inputId) {
         const volumeInput = document.getElementById(inputId);
         volumeInput.style.display = checkbox.checked ? 'inline-block' : 'none';
@@ -554,6 +550,17 @@
 
           let selectedOilTypes = [];
           let selectedFoodTypes = [];
+          let allFieldsFilled = true; // Flag to check if all required fields are filled
+
+          // Check if all required fields are filled
+          formElements.forEach(field => {
+            if (field.hasAttribute('required') && !field.value) {
+              allFieldsFilled = false;
+              field.style.borderColor = 'red'; // Highlight the empty required field
+            } else {
+              field.style.borderColor = ''; // Reset the border color if filled
+            }
+          });
 
           if (imageInput && imageInput.files.length > 0) {
               const file = imageInput.files[0];
