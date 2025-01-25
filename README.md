@@ -95,7 +95,7 @@ Future improvements could include:
 
 ## Related Links
 - To read the blog explaining how to create a dependent dropdown without much coding knowledge, [Building a Dependent Dropdown Using Google Apps Script](https://medium.com/@soumyadeepbose550/building-a-dynamic-data-collection-form-using-google-apps-script-643e297d0d0c)
-- To see the Web Form, [click here]().
+- To see the Web Form, [click here](https://youtu.be/g9sle_y2ChU?si=6V4SfNUGB4Hs3hd7).
 - For the `Code.gs` script, [click here](https://github.com/SBOSE550/Customer-Visit-Data-Collection-Form/blob/main/Code.gs).
 - To see `Index.html`, [click here](https://github.com/SBOSE550/Customer-Visit-Data-Collection-Form/blob/main/Index.html).  
   
