@@ -342,7 +342,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ipMwRy8EDtL2gmdpaYeT" name="Existing Customer">
-    <mxGraphModel dx="2280" dy="1668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -705,7 +705,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WXS64ETf3B4-_0ysoJuJ" name="New Customer">
-    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
+    <mxGraphModel dx="3202" dy="1696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -883,8 +883,8 @@
         <mxCell id="1S0NQLa2UAlokzyDnDi8-60" value="7. Ngo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" vertex="1" parent="1S0NQLa2UAlokzyDnDi8-50">
           <mxGeometry x="5" y="186" width="59" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="1S0NQLa2UAlokzyDnDi8-62" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Customer Name&amp;nbsp;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;based on user input for city, area it should suggest customer in that area from Customer Master Data.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="-1066" y="-83" width="196" height="104" as="geometry" />
+        <mxCell id="1S0NQLa2UAlokzyDnDi8-62" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Customer Name&amp;nbsp;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Based on user input for city, area, it should suggest customers in that area from Customer Master Data.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-1095" y="-12" width="196" height="104" as="geometry" />
         </mxCell>
         <mxCell id="VmOc3uy6X0T5E-D0QS20-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S0NQLa2UAlokzyDnDi8-65" target="VmOc3uy6X0T5E-D0QS20-7">
           <mxGeometry relative="1" as="geometry" />
@@ -904,9 +904,6 @@
           <mxGeometry x="-734" y="576" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1S0NQLa2UAlokzyDnDi8-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.568;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1S0NQLa2UAlokzyDnDi8-9" target="1S0NQLa2UAlokzyDnDi8-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VmOc3uy6X0T5E-D0QS20-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.015;entryY=0.631;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1S0NQLa2UAlokzyDnDi8-22" target="1S0NQLa2UAlokzyDnDi8-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VmOc3uy6X0T5E-D0QS20-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VmOc3uy6X0T5E-D0QS20-7" target="1S0NQLa2UAlokzyDnDi8-50">
@@ -986,6 +983,9 @@
         </mxCell>
         <mxCell id="PbWZUBzR2lbH5cVV7PJQ-9" value="Enter Amount in Rs/Month" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="-420" y="1419.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ceOfb0V6kiVic3eS6I_W-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S0NQLa2UAlokzyDnDi8-24" target="1S0NQLa2UAlokzyDnDi8-62">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
