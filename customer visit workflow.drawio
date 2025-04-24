@@ -369,7 +369,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ipMwRy8EDtL2gmdpaYeT" name="Existing Customer">
-    <mxGraphModel dx="1947" dy="1697" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
+    <mxGraphModel dx="2429" dy="1733" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -721,14 +721,14 @@
         <mxCell id="lc5q0Pzz22WARJeJAJ1k-8" value="Connection" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;fontStyle=1;arcSize=24;" vertex="1" parent="1">
           <mxGeometry x="92" y="928.75" width="135" height="67.5" as="geometry" />
         </mxCell>
-        <mxCell id="Mj27OcMSwU5kV-in52AU-1" value="Connected Person Details Add or Edit" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="Mj27OcMSwU5kV-in52AU-1" value="Default Connected Person Details:&lt;div&gt;&amp;nbsp;Add or Edit&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=34;" vertex="1" parent="1">
           <mxGeometry x="48" y="1089.5" width="254" height="94.5" as="geometry" />
         </mxCell>
         <mxCell id="Mj27OcMSwU5kV-in52AU-2" value="1. Edit Connected Person Details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="Mj27OcMSwU5kV-in52AU-1">
-          <mxGeometry y="26.5" width="224" height="29" as="geometry" />
+          <mxGeometry y="36.5" width="224" height="29" as="geometry" />
         </mxCell>
         <mxCell id="Mj27OcMSwU5kV-in52AU-5" value="2. Add New Connected Person Details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="Mj27OcMSwU5kV-in52AU-1">
-          <mxGeometry x="-2" y="55.5" width="256" height="29" as="geometry" />
+          <mxGeometry x="-2" y="62.5" width="256" height="29" as="geometry" />
         </mxCell>
         <mxCell id="Mj27OcMSwU5kV-in52AU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.439;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lc5q0Pzz22WARJeJAJ1k-8" target="Mj27OcMSwU5kV-in52AU-1">
           <mxGeometry relative="1" as="geometry" />
