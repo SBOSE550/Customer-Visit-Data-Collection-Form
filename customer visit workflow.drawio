@@ -71,7 +71,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WXS64ETf3B4-_0ysoJuJ" name="New Customer">
-    <mxGraphModel dx="3200" dy="1696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
+    <mxGraphModel dx="2854" dy="1558" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,8 +81,8 @@
         <mxCell id="OilWvJzNs95kaDJbQTOB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1S0NQLa2UAlokzyDnDi8-3" target="OilWvJzNs95kaDJbQTOB-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-674" y="-288" />
-              <mxPoint x="-554" y="-288" />
+              <mxPoint x="-674" y="-290" />
+              <mxPoint x="-554" y="-290" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -350,7 +350,7 @@
         <mxCell id="CkgVK6YurdmClzWJTOmE-2" value="The User Can Skip It If they Do Not have Business Card" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;" parent="1" vertex="1">
           <mxGeometry x="-616" y="416" width="135" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="CkgVK6YurdmClzWJTOmE-3" value="It is Very Difficult to identify whether the customer is the primary or Secondary Customer on the first visit. So, it is important that the user Update The Customer Support Type In The Existing Customer Section on the next visit." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=north;" parent="1" vertex="1">
+        <mxCell id="CkgVK6YurdmClzWJTOmE-3" value="It is Very Difficult to identify whether the customer is the primary or Secondary Customer on the first visit. So, it is important that the user Update The Customer Supply Type In The Existing Customer Section on the next visit." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=north;" parent="1" vertex="1">
           <mxGeometry x="-876" y="1753" width="191" height="164" as="geometry" />
         </mxCell>
         <mxCell id="OilWvJzNs95kaDJbQTOB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OilWvJzNs95kaDJbQTOB-1" target="OilWvJzNs95kaDJbQTOB-8">
