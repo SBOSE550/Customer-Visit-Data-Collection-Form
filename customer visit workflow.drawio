@@ -71,7 +71,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WXS64ETf3B4-_0ysoJuJ" name="New Customer">
-    <mxGraphModel dx="2854" dy="1558" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
+    <mxGraphModel dx="2950" dy="1597" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,7 +130,7 @@
         <mxCell id="Hw4MI4nWKhvo7rIEeBCG-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1S0NQLa2UAlokzyDnDi8-17" target="Hw4MI4nWKhvo7rIEeBCG-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1S0NQLa2UAlokzyDnDi8-17" value="Upload Customer Image&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="1S0NQLa2UAlokzyDnDi8-17" value="Upload Outlet Image&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-578.5" y="2062" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x2Leia2iMp1AZVXVw9TZ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1S0NQLa2UAlokzyDnDi8-18" target="x2Leia2iMp1AZVXVw9TZ-1" edge="1">
@@ -267,7 +267,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VmOc3uy6X0T5E-D0QS20-7" value="Horeca" style="whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="-956" y="712" width="120" height="60" as="geometry" />
+          <mxGeometry x="-956" y="701" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VmOc3uy6X0T5E-D0QS20-9" value="Institution" style="whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-734" y="700" width="120" height="61" as="geometry" />
@@ -395,7 +395,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="updated Existing Customer" id="432pvcokfNly3KWWRzdo">
-    <mxGraphModel dx="2517" dy="1762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
+    <mxGraphModel dx="2004" dy="1558" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
       <root>
         <mxCell id="c-x0zS49vAmV45kzTSzV-0" />
         <mxCell id="c-x0zS49vAmV45kzTSzV-1" parent="c-x0zS49vAmV45kzTSzV-0" />
@@ -628,7 +628,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c-x0zS49vAmV45kzTSzV-80" value="Business Status" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;fontStyle=1;arcSize=0;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="c-x0zS49vAmV45kzTSzV-1">
-          <mxGeometry x="207" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="206" y="239" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c-x0zS49vAmV45kzTSzV-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="c-x0zS49vAmV45kzTSzV-1" source="c-x0zS49vAmV45kzTSzV-82" target="c-x0zS49vAmV45kzTSzV-96">
           <mxGeometry relative="1" as="geometry">
