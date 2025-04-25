@@ -79,7 +79,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OilWvJzNs95kaDJbQTOB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1S0NQLa2UAlokzyDnDi8-3" target="OilWvJzNs95kaDJbQTOB-1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-674" y="-288" />
+              <mxPoint x="-554" y="-288" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="1S0NQLa2UAlokzyDnDi8-3" value="New Customer" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="-734" y="-382" width="120" height="60" as="geometry" />
