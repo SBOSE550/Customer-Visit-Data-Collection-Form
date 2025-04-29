@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14" pages="3">
   <diagram id="T2AqPi9ZL-3uFZacYEfg" name="Home page">
-    <mxGraphModel dx="2350" dy="1696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#E6FFCC,#121212)" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="1696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#E6FFCC,#121212)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,7 +71,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WXS64ETf3B4-_0ysoJuJ" name="New Customer">
-    <mxGraphModel dx="2742" dy="1696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="1">
+    <mxGraphModel dx="2742" dy="1696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -446,7 +446,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name=" Existing Customer" id="432pvcokfNly3KWWRzdo">
-    <mxGraphModel dx="2692" dy="1668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="1">
+    <mxGraphModel dx="2692" dy="1668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
       <root>
         <mxCell id="c-x0zS49vAmV45kzTSzV-0" />
         <mxCell id="c-x0zS49vAmV45kzTSzV-1" parent="c-x0zS49vAmV45kzTSzV-0" />
