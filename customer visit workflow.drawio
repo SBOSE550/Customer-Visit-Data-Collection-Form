@@ -446,7 +446,7 @@
           <mxGeometry x="-500" y="2350" width="138.25" height="77" as="geometry" />
         </mxCell>
         <mxCell id="usewf546Yz6Ghdy_NXif-11" value="Sub Horeca" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;startSize=23;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="-1124.37" y="1235" width="74" height="26" as="geometry">
+          <mxGeometry x="-1089" y="1233" width="74" height="26" as="geometry">
             <mxRectangle x="-1124.37" y="1235" width="225" height="357" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
