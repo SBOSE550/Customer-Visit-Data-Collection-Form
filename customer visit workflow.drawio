@@ -445,9 +445,9 @@
         <mxCell id="9OYtg_08HTlTcWBhk287-2" value="It will Help reduce duplicate entry in master data if more than one FPR visit the same New Customer at the same time" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-500" y="2350" width="138.25" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="usewf546Yz6Ghdy_NXif-11" value="Sub Horeca" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;startSize=23;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="-1089" y="1233" width="74" height="26" as="geometry">
-            <mxRectangle x="-1124.37" y="1235" width="225" height="357" as="alternateBounds" />
+        <mxCell id="usewf546Yz6Ghdy_NXif-11" value="Sub Horeca" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-1089" y="1233" width="225" height="357" as="geometry">
+            <mxRectangle x="-1089" y="1233" width="74" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="usewf546Yz6Ghdy_NXif-12" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. Hotel&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;(Star Hotel, other hotel, guest house)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" vertex="1" parent="usewf546Yz6Ghdy_NXif-11">
