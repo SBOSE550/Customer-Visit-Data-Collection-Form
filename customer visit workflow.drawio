@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14" pages="3">
   <diagram id="T2AqPi9ZL-3uFZacYEfg" name="Home page">
     <mxGraphModel dx="1892" dy="1696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#E6FFCC,#121212)" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WXS64ETf3B4-_0ysoJuJ" name="New Customer">
-    <mxGraphModel dx="2742" dy="1696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
+    <mxGraphModel dx="3200" dy="1696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -215,24 +215,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1S0NQLa2UAlokzyDnDi8-50" value="Horeca" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-1074.12" y="1051" width="198.25" height="269" as="geometry">
+          <mxGeometry x="-1054" y="1002" width="150.75" height="209" as="geometry">
             <mxRectangle x="-982" y="861.5" width="74" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S0NQLa2UAlokzyDnDi8-51" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. Hotel&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;(Star Hotel, other hotel, guest house)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" parent="1S0NQLa2UAlokzyDnDi8-50" vertex="1">
-          <mxGeometry x="1" y="28" width="198" height="46" as="geometry" />
+        <mxCell id="1S0NQLa2UAlokzyDnDi8-51" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. Hotel&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" parent="1S0NQLa2UAlokzyDnDi8-50" vertex="1">
+          <mxGeometry x="2.6645352591003757e-15" y="25" width="66" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="1S0NQLa2UAlokzyDnDi8-53" value="3. Catering&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;(caterers, ngo, banquets)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" parent="1S0NQLa2UAlokzyDnDi8-50" vertex="1">
-          <mxGeometry x="5" y="127" width="152" height="46" as="geometry" />
+        <mxCell id="1S0NQLa2UAlokzyDnDi8-53" value="3. Catering" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" parent="1S0NQLa2UAlokzyDnDi8-50" vertex="1">
+          <mxGeometry x="5" y="86" width="86" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="1S0NQLa2UAlokzyDnDi8-54" value="2. Restaurant&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;(Table Service - fine dine,Club)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" parent="1S0NQLa2UAlokzyDnDi8-50" vertex="1">
-          <mxGeometry x="5" y="81" width="168" height="46" as="geometry" />
+        <mxCell id="1S0NQLa2UAlokzyDnDi8-54" value="2. Restaurant" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" parent="1S0NQLa2UAlokzyDnDi8-50" vertex="1">
+          <mxGeometry x="5" y="54" width="102" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="1S0NQLa2UAlokzyDnDi8-57" value="4. Self Serve Eatery&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;(Cafe,QSR,Bakery)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" parent="1S0NQLa2UAlokzyDnDi8-50" vertex="1">
-          <mxGeometry x="5" y="173" width="143" height="46" as="geometry" />
+        <mxCell id="1S0NQLa2UAlokzyDnDi8-57" value="4. Self Serve Eatery" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" parent="1S0NQLa2UAlokzyDnDi8-50" vertex="1">
+          <mxGeometry x="7.75" y="120" width="143" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="1S0NQLa2UAlokzyDnDi8-59" value="5. Others&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;(Free Text)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" parent="1S0NQLa2UAlokzyDnDi8-50" vertex="1">
-          <mxGeometry x="5" y="217" width="76" height="46" as="geometry" />
+        <mxCell id="1S0NQLa2UAlokzyDnDi8-59" value="6. Others" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" parent="1S0NQLa2UAlokzyDnDi8-50" vertex="1">
+          <mxGeometry x="5" y="175" width="76" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="gIC2uQr6kIgjUkFi4DK7-1" value="5. Consolidator" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" vertex="1" parent="1S0NQLa2UAlokzyDnDi8-50">
+          <mxGeometry x="7.75" y="149" width="112" height="29" as="geometry" />
         </mxCell>
         <mxCell id="1S0NQLa2UAlokzyDnDi8-62" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Customer Name&amp;nbsp;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Based on user input for city, area, it should suggest customers in that area from Customer Master Data.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-1046" y="-35" width="196" height="104" as="geometry" />
@@ -439,14 +442,37 @@
         <mxCell id="PzcSPzjFY7th-XHCoa0d-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.429;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VmOc3uy6X0T5E-D0QS20-19" target="H3qOKO9fkg977SjyelO6-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9OYtg_08HTlTcWBhk287-2" value="It will Help reduce duplicate entry in master data if more than one FPR visit the same New Customer at the same time" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9OYtg_08HTlTcWBhk287-2" value="It will Help reduce duplicate entry in master data if more than one FPR visit the same New Customer at the same time" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-500" y="2350" width="138.25" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="usewf546Yz6Ghdy_NXif-11" value="Sub Horeca" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-1124.37" y="1235" width="225" height="357" as="geometry">
+            <mxRectangle x="-1124.37" y="1217" width="74" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usewf546Yz6Ghdy_NXif-12" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. Hotel&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;(Star Hotel, other hotel, guest house)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" vertex="1" parent="usewf546Yz6Ghdy_NXif-11">
+          <mxGeometry y="33" width="198" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="usewf546Yz6Ghdy_NXif-13" value="3. Catering&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;(caterers, ngo, banquets,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;hostel, pg, Temple, office&lt;/font&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" vertex="1" parent="usewf546Yz6Ghdy_NXif-11">
+          <mxGeometry x="7.13" y="138" width="158" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="usewf546Yz6Ghdy_NXif-14" value="2. Restaurant&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;(Table Service - fine dine,Club)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" vertex="1" parent="usewf546Yz6Ghdy_NXif-11">
+          <mxGeometry x="7.13" y="87" width="168" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="usewf546Yz6Ghdy_NXif-15" value="4. Self Serve Eatery&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;(Cafe,QSR,Bakery)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" vertex="1" parent="usewf546Yz6Ghdy_NXif-11">
+          <mxGeometry x="5.5" y="203" width="143" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="usewf546Yz6Ghdy_NXif-18" value="6. Others&lt;div&gt;(Free Text)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" vertex="1" parent="usewf546Yz6Ghdy_NXif-11">
+          <mxGeometry x="5.500000000000109" y="302" width="85" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="gIC2uQr6kIgjUkFi4DK7-2" value="5. Consolidator&lt;div&gt;(suppliers, small manufacturer)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=0" vertex="1" parent="usewf546Yz6Ghdy_NXif-11">
+          <mxGeometry x="7.130000000000118" y="249" width="210" height="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name=" Existing Customer" id="432pvcokfNly3KWWRzdo">
-    <mxGraphModel dx="2692" dy="1668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
+    <mxGraphModel dx="2742" dy="1662" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
       <root>
         <mxCell id="c-x0zS49vAmV45kzTSzV-0" />
         <mxCell id="c-x0zS49vAmV45kzTSzV-1" parent="c-x0zS49vAmV45kzTSzV-0" />
@@ -548,7 +574,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c-x0zS49vAmV45kzTSzV-42" value="Check box For Approved and retest with Date and remarks option" style="whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;startSize=23;" parent="c-x0zS49vAmV45kzTSzV-1" vertex="1">
-          <mxGeometry x="110" y="1073" width="120" height="128" as="geometry" />
+          <mxGeometry x="111" y="1071.5" width="120" height="128" as="geometry" />
         </mxCell>
         <mxCell id="c-x0zS49vAmV45kzTSzV-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="c-x0zS49vAmV45kzTSzV-1" source="c-x0zS49vAmV45kzTSzV-44" target="c-x0zS49vAmV45kzTSzV-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -590,7 +616,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c-x0zS49vAmV45kzTSzV-58" value="Sampiling" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="c-x0zS49vAmV45kzTSzV-1" vertex="1">
-          <mxGeometry x="71" y="763.5" width="200" height="274.5" as="geometry">
+          <mxGeometry x="71" y="763.5" width="200" height="253.5" as="geometry">
             <mxRectangle x="343" y="757.5" width="88" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -871,14 +897,14 @@
         <mxCell id="iMixO-mNaBeGJDYe3eQo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.491;entryY=0.194;entryDx=0;entryDy=0;entryPerimeter=0;" parent="c-x0zS49vAmV45kzTSzV-1" source="c-x0zS49vAmV45kzTSzV-97" target="c-x0zS49vAmV45kzTSzV-105" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3b_1VC33dugNmyZ2l1-U-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.982;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="c-x0zS49vAmV45kzTSzV-1" source="c-x0zS49vAmV45kzTSzV-76" target="c-x0zS49vAmV45kzTSzV-90">
+        <mxCell id="3b_1VC33dugNmyZ2l1-U-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.982;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;" parent="c-x0zS49vAmV45kzTSzV-1" source="c-x0zS49vAmV45kzTSzV-76" target="c-x0zS49vAmV45kzTSzV-90" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1363" y="1365" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3b_1VC33dugNmyZ2l1-U-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.988;entryY=0.864;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="c-x0zS49vAmV45kzTSzV-1" source="c-x0zS49vAmV45kzTSzV-105" target="c-x0zS49vAmV45kzTSzV-90">
+        <mxCell id="3b_1VC33dugNmyZ2l1-U-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.988;entryY=0.864;entryDx=0;entryDy=0;entryPerimeter=0;" parent="c-x0zS49vAmV45kzTSzV-1" source="c-x0zS49vAmV45kzTSzV-105" target="c-x0zS49vAmV45kzTSzV-90" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1129" y="1414" />
