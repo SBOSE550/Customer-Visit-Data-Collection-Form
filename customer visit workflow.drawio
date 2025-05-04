@@ -311,9 +311,6 @@
         <mxCell id="Hw4MI4nWKhvo7rIEeBCG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Hw4MI4nWKhvo7rIEeBCG-1" target="1S0NQLa2UAlokzyDnDi8-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OilWvJzNs95kaDJbQTOB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Hw4MI4nWKhvo7rIEeBCG-1" target="OilWvJzNs95kaDJbQTOB-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Hw4MI4nWKhvo7rIEeBCG-1" value="Customer Check In Time (auto)" style="whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="-734" y="124" width="120" height="60" as="geometry" />
         </mxCell>
@@ -375,6 +372,9 @@
         </mxCell>
         <mxCell id="OilWvJzNs95kaDJbQTOB-7" value="1. latitude" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="OilWvJzNs95kaDJbQTOB-5" vertex="1">
           <mxGeometry x="4" y="28" width="79" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="P5zPwcQ5OuzKLJO4c68a-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OilWvJzNs95kaDJbQTOB-8" target="Hw4MI4nWKhvo7rIEeBCG-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OilWvJzNs95kaDJbQTOB-8" value="&lt;span style=&quot;font-size: 14px; font-weight: 400; text-wrap-mode: nowrap;&quot;&gt;Customer Name&lt;/span&gt;&lt;div style=&quot;font-size: 14px; font-weight: 400; text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp;(drop down)&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="-734" y="-29" width="120" height="60" as="geometry" />
