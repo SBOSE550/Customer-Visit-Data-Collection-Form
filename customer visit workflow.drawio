@@ -955,7 +955,7 @@
         <mxCell id="62VcLjSLz06nM5Pf3CBM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="1" source="62VcLjSLz06nM5Pf3CBM-13" target="62VcLjSLz06nM5Pf3CBM-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="62VcLjSLz06nM5Pf3CBM-13" value="Order Details" style="swimlane;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="62VcLjSLz06nM5Pf3CBM-13" value="Order Details" style="swimlane;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="201" y="224" width="200" height="154" as="geometry" />
         </mxCell>
         <mxCell id="62VcLjSLz06nM5Pf3CBM-14" value="1. Product" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="62VcLjSLz06nM5Pf3CBM-13">
