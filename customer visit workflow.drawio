@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.9" pages="4">
   <diagram id="T2AqPi9ZL-3uFZacYEfg" name="Home page">
-    <mxGraphModel dx="2350" dy="1696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#E6FFCC,#121212)" math="0" shadow="0">
+    <mxGraphModel dx="1367" dy="1714" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#E6FFCC,#121212)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
         <mxCell id="wIiH1d4Gr-jp8njUax-J-24" value="4. New Customer (button)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="wIiH1d4Gr-jp8njUax-J-20" vertex="1">
           <mxGeometry x="6" y="121" width="182" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wIiH1d4Gr-jp8njUax-J-26" value="Based on User Current Location the system should suggest near by existing Customer. user should also have manual option to filter the customer name suggestion using city, area and pincode. &lt;br&gt;1. If user do not find the customer name in the suggestion then the will click new customer button enter all the necessary data according to new customer workflow.&lt;div&gt;2. If user find the Customer Name in the customer Name Suggestion then they will click the Customer name and enter necessary visit data based on existing customer workflow.&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=east;" parent="1" vertex="1">
+        <mxCell id="wIiH1d4Gr-jp8njUax-J-26" value="Based on the user&#39;s Current Location, the system should suggest nearby existing customers. The user should also have a manual option to filter the customer name suggestion using city, area, and pincode. &lt;br&gt;1. If the user does not find the customer name in the suggestion, then they will click the new customer button, enter all the necessary data according to the new customer workflow.&lt;div&gt;2. If the user finds the Customer Name in the Customer Name Suggestion, then they will click the Customer name and enter necessary visit data based on the existing customer workflow.&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=east;" parent="1" vertex="1">
           <mxGeometry x="-814" y="-632" width="273" height="270" as="geometry" />
         </mxCell>
       </root>
@@ -866,7 +866,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9pffXg-uLrbPTA6Zpyo5" name="Order Taking">
-    <mxGraphModel dx="1042" dy="996" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
+    <mxGraphModel dx="517" dy="1014" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
