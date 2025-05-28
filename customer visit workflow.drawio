@@ -1338,7 +1338,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="I0mcR-LFYsMWxqr3E3ag" name="Lead Generation">
-    <mxGraphModel dx="2606" dy="1589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
+    <mxGraphModel dx="2606" dy="489" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1427,7 +1427,7 @@
           <mxGeometry x="6.5" y="56" width="191" height="29" as="geometry" />
         </mxCell>
         <mxCell id="RwJd5-LeYjuAUotCrp_M-18" value="IF the user does not have the necessary information, then they can skip it and update it in the next visit in the Existing Customer Form." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="1825" y="-44.5" width="207" height="251.5" as="geometry" />
+          <mxGeometry x="1825" y="26" width="207" height="181" as="geometry" />
         </mxCell>
         <mxCell id="RwJd5-LeYjuAUotCrp_M-19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;startSize=8;endSize=8;fontStyle=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RwJd5-LeYjuAUotCrp_M-21" target="RwJd5-LeYjuAUotCrp_M-23">
           <mxGeometry relative="1" as="geometry">
