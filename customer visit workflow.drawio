@@ -1222,7 +1222,7 @@
         <mxCell id="M8pqUKD0nXpmeO19x4Kv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M8pqUKD0nXpmeO19x4Kv-1" target="M8pqUKD0nXpmeO19x4Kv-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M8pqUKD0nXpmeO19x4Kv-1" value="Visit Type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M8pqUKD0nXpmeO19x4Kv-1" value="Visit Type" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="215" y="31" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0dQzirUdnhmY92ix5Cug-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M8pqUKD0nXpmeO19x4Kv-2" target="0dQzirUdnhmY92ix5Cug-1">
@@ -1233,7 +1233,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="M8pqUKD0nXpmeO19x4Kv-2" value="Physical Visit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M8pqUKD0nXpmeO19x4Kv-2" value="Physical Visit" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="44" y="131" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M8pqUKD0nXpmeO19x4Kv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M8pqUKD0nXpmeO19x4Kv-4" target="M8pqUKD0nXpmeO19x4Kv-18">
@@ -1247,19 +1247,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="M8pqUKD0nXpmeO19x4Kv-4" value="virtual visit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M8pqUKD0nXpmeO19x4Kv-4" value="virtual visit" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="399" y="123" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M8pqUKD0nXpmeO19x4Kv-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M8pqUKD0nXpmeO19x4Kv-12" target="M8pqUKD0nXpmeO19x4Kv-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M8pqUKD0nXpmeO19x4Kv-12" value="Meeting Update" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M8pqUKD0nXpmeO19x4Kv-12" value="Meeting Update" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="249" y="658" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KZXlNKNSm5RZFOkdJuYF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M8pqUKD0nXpmeO19x4Kv-14" target="KZXlNKNSm5RZFOkdJuYF-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M8pqUKD0nXpmeO19x4Kv-14" value="Order Taking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M8pqUKD0nXpmeO19x4Kv-14" value="Order Taking" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="249" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M8pqUKD0nXpmeO19x4Kv-18" value="Virtual Visit (Drop down)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1338,7 +1338,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="I0mcR-LFYsMWxqr3E3ag" name="Lead Generation">
-    <mxGraphModel dx="3437" dy="2037" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
+    <mxGraphModel dx="2606" dy="1589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1958,6 +1958,9 @@
         </mxCell>
         <mxCell id="xGWEIYIHpePPY1i7caVl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.446;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hApVxC8xaPGWHVxwR-RV-76" target="xGWEIYIHpePPY1i7caVl-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EIOLyEb_SBTpcncdNzfM-1" value="A customer is considered active if they billed last month. If they did not bill last month, they are considered inactive." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-267" y="83" width="157" height="152" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
