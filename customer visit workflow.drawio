@@ -1253,7 +1253,7 @@
         <mxCell id="M8pqUKD0nXpmeO19x4Kv-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M8pqUKD0nXpmeO19x4Kv-12" target="M8pqUKD0nXpmeO19x4Kv-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M8pqUKD0nXpmeO19x4Kv-12" value="Meeting Update" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="M8pqUKD0nXpmeO19x4Kv-12" value="Meeting Update (Text Field)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="266" y="899" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3xX6BrLNosrXFERJthqz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M8pqUKD0nXpmeO19x4Kv-14" target="3xX6BrLNosrXFERJthqz-1">
