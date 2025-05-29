@@ -1183,29 +1183,29 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xbs8kb9mwlakLNiiFd6l" name="Attendance">
-    <mxGraphModel dx="772" dy="416" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
+    <mxGraphModel dx="2118" dy="883" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6FFCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yaac8ogykE60PRSpbSyg-1" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;Attendance&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yaac8ogykE60PRSpbSyg-1" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;Attendance&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="281" y="304" width="200" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="yaac8ogykE60PRSpbSyg-2" value="1. Upload Selfie" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yaac8ogykE60PRSpbSyg-1">
+        <mxCell id="yaac8ogykE60PRSpbSyg-2" value="1. Upload Selfie" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="yaac8ogykE60PRSpbSyg-1" vertex="1">
           <mxGeometry x="4" y="30" width="103" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yaac8ogykE60PRSpbSyg-3" value="2. Lat &amp;amp; Long (auto)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yaac8ogykE60PRSpbSyg-1">
+        <mxCell id="yaac8ogykE60PRSpbSyg-3" value="2. Lat &amp;amp; Long (auto)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="yaac8ogykE60PRSpbSyg-1" vertex="1">
           <mxGeometry x="4" y="56" width="124" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yaac8ogykE60PRSpbSyg-4" value="3. Check In Time (auto)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yaac8ogykE60PRSpbSyg-1">
+        <mxCell id="yaac8ogykE60PRSpbSyg-4" value="3. Check In Time (auto)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="yaac8ogykE60PRSpbSyg-1" vertex="1">
           <mxGeometry x="4" y="82" width="143" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="MQsXAniwGMvEVzDYhiec-1" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;EOD&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MQsXAniwGMvEVzDYhiec-1" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;EOD&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="532" y="315" width="143" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="MQsXAniwGMvEVzDYhiec-2" value="1. Check Out Time (auto)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="MQsXAniwGMvEVzDYhiec-1">
+        <mxCell id="MQsXAniwGMvEVzDYhiec-2" value="1. Check Out Time (auto)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="MQsXAniwGMvEVzDYhiec-1" vertex="1">
           <mxGeometry x="-4.5" y="29" width="152" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="MQsXAniwGMvEVzDYhiec-3" value="2. Lat &amp;amp; Long (auto)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="MQsXAniwGMvEVzDYhiec-1">
+        <mxCell id="MQsXAniwGMvEVzDYhiec-3" value="2. Lat &amp;amp; Long (auto)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="MQsXAniwGMvEVzDYhiec-1" vertex="1">
           <mxGeometry y="58" width="124" height="26" as="geometry" />
         </mxCell>
       </root>
